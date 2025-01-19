@@ -1,0 +1,342 @@
+/*universal selector*/
+/*box-sizing*/
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    overflow-x:hidden;
+    
+}
+header{
+    position:fixed;
+    top:0;
+    background-color:orange;
+    font-size:25px;
+    padding-top:40px;
+    padding-bottom:20px;
+    width:100%;
+    z-index:100;
+    text-align:center;
+}
+#washera{
+    color:red;
+}
+#acadamy{
+    color:green;
+}
+.active{
+    border-bottom: 2px solid red;
+}
+/*navigation*/
+body{
+    font-style:inherit;
+    line-height:160%;
+   
+}
+h1, h2{
+    margin:10px auto;
+    text-transform:uppercase;
+}
+
+.menu-list li, a{
+     display:inline-block;
+     text-decoration:none;
+     color:white;
+     font-size:30px;
+     padding:10px;
+               }
+ 
+main{
+    padding:50px;
+    margin-top:250px; 
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:90px;
+    line-height:1.5;}
+.media{
+    padding:39px;
+}
+video{
+    width:25%;
+}
+.videos{
+    text-align:center;
+    background-color:rgb(148, 88, 10);
+    padding:20px;
+    border-radius:10px;
+}
+.audios h2{
+    padding:10px;
+    margin:10px;
+    font-weight:400;
+
+    
+}
+.audios{
+    background-color:rgb(163, 163, 6);
+    padding:18px;
+    border-radius:10px;
+}
+.meters{
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+}
+.progresses{
+ background-color:rgb(112, 24, 194);
+ padding:15px;
+ border-radius:10px;
+
+}
+.details{
+    background-color:tomato;
+    padding:15px;
+    border-radius:10px;
+}
+iframe{
+    width:50%;
+}
+meter{
+    width: 200px;
+    height:30px;
+
+}
+Progress{
+    width: 200px;
+    height:30px;
+}
+
+table, th, td{
+    border:1px solid rgb(40, 6, 235);
+    border-collapse:collapse;
+}
+table{
+    margin-top:15px;
+    width:500px;
+    height:200px;
+   
+}
+th{
+    background-color:rgb(99, 71, 255);
+    text-align:center;
+    color:white;
+}
+td{
+    padding:10px;
+}
+.techno{
+    background-color:rgb(240, 240, 138);
+    padding:25px;
+    border-radius:10px;   
+}
+.page-section{
+    margin-bottom:30px;
+
+    
+}
+#introduction{
+    background-color:rgb(47, 47, 161);
+    border-radius: 10px;
+    color:white;
+    padding:25px;
+
+}
+img{
+    width: 10%;
+    margin:10px;
+    padding-left:40px;
+}
+
+/*css selectors
+id #
+class .
+by name
+*/
+#sec{
+    padding:40px;
+    border-radius: 10px;
+}
+/*colors
+RGB-> Red, Green , Blue
+rgb(255, 34, 78)
+
+Hexadecimal #ffffff
+ more go to W3schools*/
+ /*box model
+   padding-left:65px;
+    padding-top:20px;
+    padding-bottom:25px;
+    margin-top:15px;
+    margin-bottom:20px;
+    margin-left:30px;
+    margin-right:30px;*/
+ .box{
+    display:inline-block;
+    border-bottom: 35px groove red;
+    border-top: 35px groove green;
+    border-right: 35px groove yellow;
+    border-left: 35px groove gray;
+    /*margin:40px;*/
+    padding:30px;
+    width:200px;
+    height:200px;
+    font-size:60px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    /*border-radius:50%; to make cicle the rectangles*/
+    
+ }
+ #box1{
+    background-color:green;
+    bottom:0;
+    left:0;
+ }
+ #box2{
+    background-color: yellow;
+    top:0;
+    left:0;
+ }
+ #box3{
+    background-color:red;
+    right:0;
+    top:0;
+ }
+ #box4{
+    background-color:purple;
+    right:0;
+    bottom:0;
+ }
+ section{
+    line-height:1.7;
+ }
+ /* 
+    inline
+    block 
+    invisible
+    inline-block
+*/
+#test{
+    border: 2px solid red;
+    display:inline-block;
+    height:80px;
+    padding:10px;
+    line-height:60px;
+    margin:40px;
+}
+   /* display:none;* uses in javascript more/
+   / *position
+   static
+   fixed
+   relative
+   absolute
+   sticky*/
+   .box-wrapper{
+    position:relative;
+    height:600px;
+    width:100%;
+    background-color:lightblue;
+   }
+   .hcj{
+    /*margin:40px;*/
+    padding:30px;
+    width:200px;
+    height:200px;
+    font-size:40px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    left:400px;
+    top:250px;
+    line-height:160px;
+   }
+
+   #html{
+  background-color:orangered;
+  z-index:3;
+  top:250px;
+   }
+   #css{
+    background-color:rgb(4, 4, 231);
+    left:580px;
+    z-index:1;
+    top:265px;
+   }
+   #js{
+   background-color:rgb(221, 221, 11);
+    left:760px;
+    z-index:2;
+    top:280px;
+
+   }
+   .stickey{
+    position:sticky;
+    bottom:0;
+   }
+/*overflow
+visible
+hidden
+scroll
+auto =it is the best one*/
+.para{
+    overflow:auto;
+    height:200px;
+    width:300px;
+}
+footer{
+    padding:30px;
+    text-align:center;
+    background-color:orange;
+}
+.footer-wrapper a{
+margin:10px;
+}
+.yt{
+background-color:red;
+}
+.tg{
+background-color:#00acee;
+}
+.je{
+background-color:green;
+}
+form{
+    /*border:2px solid red;*/
+   
+}
+.form-group{
+ margin:10px auto;
+ 
+}
+input[type='text'],
+input[type='date'],
+input[type='email'],
+input[type='number'], select, textarea{
+    display:block;
+    padding:8px;
+    width:22%;
+    border:2px solid rgb(218, 52, 11);
+    border-radius:5px;
+    margin-top:5px
+}
+/*hover*/
+input[type='text']:hover,
+input[type='date']:hover,
+input[type='email']:hover,
+input[type='number']:hover,select:hover,textarea:hover{
+   
+    border:2px solid rgb(111, 218, 11);
+   
+}
+#submit{
+    background-color:rgb(14, 196, 14);
+    color:white;
+    padding:5px 20px 5px 20px;
+    border:2px solid rgb(241, 159, 159);
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:900;
+    text-transform:uppercase;
+}
